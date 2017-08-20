@@ -9,9 +9,11 @@ const VideoList = (props) =>{
 
 
     return(
+        <div>
         <ul className="list-group">
             {videoItems}
         </ul>
+        </div>
     );
 };
 export default VideoList;

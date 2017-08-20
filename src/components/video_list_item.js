@@ -7,7 +7,7 @@ const VideoListItem = ({video}) => {
     return(
         <li className="list-group-item">
             <div className="video-list media">
-                <div className="media-lef">
+                <div className="media-left">
                     <img className="media-object" src={imageUrl}/>
                </div>
                 <div clasName="media-body">
